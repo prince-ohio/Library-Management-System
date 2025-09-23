@@ -44,7 +44,9 @@ LibraryProject/
    cd Library-Management-System
 
 2. Compile project:
+   ```bash
    javac -d out -cp "sqlite-jdbc-3.50.3.0.jar" src/com/example/library/.java src/com/example/ui/.java src/com/example/app/*.java
 
 3. Run project:
+   ```bash
    java -cp "out;sqlite-jdbc-3.50.3.0.jar" com.example.app.Main
