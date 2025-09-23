@@ -42,3 +42,9 @@ LibraryProject/
    ```bash
    git clone https://github.com/your-username/Library-Management-System.git
    cd Library-Management-System
+
+2. Compile project:
+   javac -d out -cp "sqlite-jdbc-3.50.3.0.jar" src/com/example/library/.java src/com/example/ui/.java src/com/example/app/*.java
+
+3. Run project:
+   java -cp "out;sqlite-jdbc-3.50.3.0.jar" com.example.app.Main
