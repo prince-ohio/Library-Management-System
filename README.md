@@ -51,4 +51,4 @@ LibraryProject/
    ```bash
    java -cp "out;sqlite-jdbc-3.50.3.0.jar" com.example.app.Main
 
-   This line was added to test the Pair Extraordinaire badge! 😄
+   This line was added to test the Pair Extraordinaire badge! 😄!
